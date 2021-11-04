@@ -1,0 +1,15 @@
+
+
+#Ignored the .idea folder and its content.
+.idea/
+
+
+#Ignored all  the folders that have the name "out".
+out/
+
+
+#Ignore all the files whit the estension ".iml".
+*.iml
+
+
+ 
