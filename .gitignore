@@ -11,5 +11,6 @@ out/
 #Ignore all the files whit the estension ".iml".
 *.iml
 
-
+#Ignore all the files whit the estension ".class".
+*.class
  
