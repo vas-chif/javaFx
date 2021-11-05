@@ -1,4 +1,4 @@
-package com.example.temperatureconverter;
+package com.example.numberconverter;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,17 +8,15 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 320, 160);
-        stage.setTitle("Temperature Converter");
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 255 , 400);
+        stage.setTitle("Number Converter");
         stage.setScene(scene);
-
-        javafx.scene.image.Image icon = new javafx.scene.image.Image("file:icon.png");
+        javafx.scene.image.Image icon = new javafx.scene.image.Image("file:number.png");
         stage.getIcons().add(icon);
-
         stage.show();
     }
 
