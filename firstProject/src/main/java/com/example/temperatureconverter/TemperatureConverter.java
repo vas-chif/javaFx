@@ -9,6 +9,7 @@ public class TemperatureConverter {
     }
 
     double toFahrenheit(int temperatureToConvert) {
+
         return (double) (9 * temperatureToConvert + (32 * 5)) / 5;
     }
 }

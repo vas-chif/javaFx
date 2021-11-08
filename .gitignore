@@ -4,9 +4,9 @@
 .idea/
 
 
-#Ignored all  the folders that have the name "out".
+#Ignored all  the folders that have the name "out" and simpleCalculator.
 out/
-
+simpleCalculator/
 
 #Ignore all the files whit the estension ".iml".
 *.iml
