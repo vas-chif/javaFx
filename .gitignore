@@ -4,9 +4,10 @@
 .idea/
 
 
-#Ignored all  the folders that have the name "out" and simpleCalculator.
+#Ignored all  the folders that have the name "out", "simpleCalculator" and "javaExperiment".
 out/
 simpleCalculator/
+javaExperiment/
 
 #Ignore all the files whit the estension ".iml".
 *.iml

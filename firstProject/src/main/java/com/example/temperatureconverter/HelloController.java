@@ -1,5 +1,6 @@
 package com.example.temperatureconverter;
 
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 import javafx.event.ActionEvent;
@@ -14,6 +15,7 @@ public class HelloController {
     public RadioButton celsiusRadioBtn;
     public RadioButton fahrenheitRadioBtn;
     public Label convertedTemperatureLiable;
+    public Button clear;
 
     public void convertTemperature(ActionEvent actionEvent) {
 
@@ -22,6 +24,11 @@ public class HelloController {
         TemperatureConverter temperatureConverter = new TemperatureConverter();
 
         if (temperatureInput.getText().isEmpty()){
+            return;
+        }
+        if (actionEvent.getSource() == clear){
+            temperatureInput.clear();
+            convertedTemperatureLiable.setText("");
             return;
         }
 
@@ -43,4 +50,6 @@ public class HelloController {
 
 
     }
+
+
 }
