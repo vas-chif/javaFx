@@ -1,4 +1,4 @@
-module com.example.numberconverter {
+module com.example.convertero2flow {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -9,8 +9,7 @@ module com.example.numberconverter {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
-    requires javafx.base;
 
-    opens com.example.numberconverter to javafx.fxml;
-    exports com.example.numberconverter;
+    opens com.example.convertero2flow to javafx.fxml;
+    exports com.example.convertero2flow;
 }

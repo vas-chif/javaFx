@@ -8,7 +8,6 @@
 out/
 simpleCalculator/
 javaExperiment/
-numberConverter/
 
 #Ignore all the files whit the estension ".iml".
 *.iml

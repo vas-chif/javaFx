@@ -17,7 +17,6 @@ public class Controller {
 
     public Button clear;
 
-
     public Button equals;
 
     public Button minus;

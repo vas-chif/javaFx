@@ -9,7 +9,7 @@ import javafx.scene.control.TextField;
 
 import java.text.DecimalFormat;
 
-public class HelloController {
+public class Controller {
 
     public TextField temperatureInput;
     public RadioButton celsiusRadioBtn;
